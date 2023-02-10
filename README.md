@@ -1,6 +1,6 @@
-# drf_react_RapidHotel
+# Hotel website
 
-<h2>Hotel and resort website where people can book reservation</h2>
+<h2>Hotel website where people can book reservation</h2>
 
 <h4>Built with </h4>
 <p>Python(Django Rest Framework)</p>
