@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 
-import about1 from '../about_1.png'
-import about2 from '../about_2.png'
-import food1 from '../8.png'
-import food2 from '../9.png'
+import about1 from '../images/about_1.png'
+import about2 from '../images/about_2.png'
+import food1 from '../images/8.png'
+import food2 from '../images/9.png'
 
 
 

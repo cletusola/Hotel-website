@@ -73,7 +73,7 @@
   width: 100%;
   height: 90vh;
   margin-top: -30px;
-  background-image: url('banner2.jpg');
+  background-image: url('images/banner2.jpg');
   background-size: cover;
 }
 .home-logo{
@@ -186,19 +186,19 @@
   /* display: contents; */
 }
 .all-rm-1{
-  background-image: url('3.png');
+  background-image: url('images/3.png');
   background-size: cover; 
 }
 .all-rm-2{
-  background-image: url('5.png');
+  background-image: url('images/5.png');
   background-size: cover;
 }
 .all-rm-3{
-  background-image: url('10.png');
+  background-image: url('images/10.png');
   background-size: cover;
 }
 .all-rm-4{
-  background-image: url('4.png');
+  background-image: url('images/4.png');
   background-size: cover;
 }
 .all-rm-1,.all-rm-2,.all-rm-3,.all-rm-4{
@@ -218,7 +218,7 @@
   height: 700px;
   /* background-color: #282c34; */
   margin-top: -30px;
-  background-image: url('room.jpg');
+  background-image: url('images/room.jpg');
   background-size: cover;
 }
 .room-tlk {
@@ -263,7 +263,7 @@
   margin-top: -10px;
   text-align: center;
   /* background-color: #61dafb; */
-  background: url('7.png');
+  background: url('images/7.png');
   background-size: cover;
 }
 .book{
