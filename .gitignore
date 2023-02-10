@@ -1,0 +1,43 @@
+#django 
+
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+
+#misc
+/myenv
+.env
+/env
+/backend/hotel/.env
+
+# Installer logs 
+pip-log.txt 
+pip-delete-this-directory.txt
+
+
+#folders and files 
+
+/backend/hotel_app/migrations
+/backend/hotel_app/__pycache__
+/backend/hotel_app/__init__.py
+
+
+
+
+/backend/media
+/backend/hotel/__pycache__
+/backend/hotel/__init__.py
+
+# Unit test / coverage reports 
+htmlcov/ 
+.tox/ 
+.coverage 
+.coverage.* 
+.cache 
+.pytest_cache/ 
+nosetests.xml 
+coverage.xml 
+*.cover 
+.hypothesis/ 

@@ -1,0 +1,428 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* my app  */
+
+.logo{
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.logo h3{
+  font-size: 28px;
+  color: white;
+}
+.intro{
+  margin-top: 220px;
+}
+.intro h2{
+  font-size: 60px;
+  color: white;
+}
+.intro p{
+  color: white;
+  font-style: italic;
+}
+.nav{
+  width: 50%;
+  margin: auto;
+  padding: 3px;
+  /* background-color: rgb(4, 87, 196); */
+  height: 20px;
+  padding: 9px;
+  text-align: center;
+  border-radius: 6px;
+}
+.top-div{
+  width: 100%;
+  height: 90vh;
+  margin-top: -30px;
+  background-image: url('banner2.jpg');
+  background-size: cover;
+}
+.home-logo{
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.home-logo h3{
+  font-size: 28px;
+  color: white;
+}
+.home-nav{
+  width: 50%;
+  margin: auto;
+  margin-top: -16px;
+  padding: 3px;
+  height: 20px;
+  padding: 9px;
+  text-align: center;
+  border-radius: 6px;
+}
+.home-nav .link{
+  padding: 4px;
+  margin: 8px;
+  /* text-decoration: none; */
+  font-weight: bold;
+  color: white;
+  font-size: large;
+}
+.nav .link{
+  padding: 4px;
+  margin: 8px;
+  /* text-decoration: none; */
+  font-weight: bold;
+  color: white;
+}
+.abb-all{
+  margin: auto;
+  width: 70%;
+  height: 500px;
+  padding: 6px;
+  margin-top: 70px;
+  /* background-color: green; */
+}
+
+.abb-txt{
+  display: inline-block;
+  width: 450px;
+  height: auto;
+  /* background-color: #61dafb; */
+  margin-left: -35px;
+  margin-right: 20px;
+  float: left;
+  padding: 3px;
+  text-align: center;
+}
+.abb-txt .p{
+  padding: 4px;
+  margin: 3px;
+  text-align: justify;
+  word-break: break-all;
+  font-weight: 300;
+
+}
+.abb-img{
+  display: inline-block;
+  width: 450px;
+  height: auto;
+  float: right;
+  margin: 5px;
+  margin-right: 20px;
+
+}
+
+.abb-img1{
+  width: 200px;
+  height: 300px;
+  margin: 3px;
+  float: left;
+}
+.abb-img2{
+  width: 200px;
+  height: 300px;
+  margin: 3px;
+  float: right;
+  margin-top: 80px;
+}
+.mk-rs{
+  width: 500px;
+  margin: auto;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+.mk-rs span{
+  font-size: larger;
+  /* color: white; */
+}
+
+.all-room{
+  width: 100%;
+  margin-top: 80px;
+  padding: 5px;
+  text-align: center;
+  height: auto;
+  /* background-color: #61dafb; */
+  /* display: contents; */
+}
+.all-rm-1{
+  background-image: url('3.png');
+  background-size: cover; 
+}
+.all-rm-2{
+  background-image: url('5.png');
+  background-size: cover;
+}
+.all-rm-3{
+  background-image: url('10.png');
+  background-size: cover;
+}
+.all-rm-4{
+  background-image: url('4.png');
+  background-size: cover;
+}
+.all-rm-1,.all-rm-2,.all-rm-3,.all-rm-4{
+  width: 400px;
+  height: 400px;
+  background-color: #282c34;
+  margin: 5px;
+  display: inline-block;
+}
+.all-rm-1 h3,.all-rm-2 h3,.all-rm-3 h3,.all-rm-4 h3{
+  font-size: 25px;
+  margin-top: 170px;
+  /* color: white; */
+}
+.room-top{
+  width: 100%;
+  height: 700px;
+  /* background-color: #282c34; */
+  margin-top: -30px;
+  background-image: url('room.jpg');
+  background-size: cover;
+}
+.room-tlk {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+.room-tlk h1 {
+  font-size: 35px;
+  color: white;
+}
+.room-con {
+  width: 80%;
+  padding: 8px;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  /* background-color: #61dafb; */
+}
+
+.room-img{
+  width: 95%;
+  padding: 9px;
+  margin: 5px;
+}
+
+.room-img img{
+  width: 400px;
+  margin: 3px;
+}
+
+.room-img p {
+  text-align: justify;
+  margin: 3px;
+  word-break: break-all;
+}
+.book-con {
+  width: 100%;
+  padding: 8px;
+  margin: auto;
+  margin-top: -10px;
+  text-align: center;
+  /* background-color: #61dafb; */
+  background: url('7.png');
+  background-size: cover;
+}
+.book{
+  width: 90%;
+  padding: 5px;
+  display: contents;
+  /* text-align: justify; */
+  float: left;
+}
+.form-div{
+  margin: auto;
+  padding: 10px;
+  width: 450px;
+  height: 500px;
+  text-align: center;
+  border: 2px rgb(230, 230, 236) solid;
+  background-color: rgb(255, 255, 255);
+
+}
+.form-div form{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+
+}
+.form-div form label{
+  margin: 4px;
+  padding: 4px;
+
+}
+.form-div form input, select{
+  width: 300px;
+  padding: 7px;
+  margin: 3px;
+  border:1px rgb(3, 3, 65) solid;
+}
+
+select{
+  background-color: white;
+  font-weight: bold;
+}
+.submit{
+  width: 80px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: transparent;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(3, 3, 82);
+
+}
+
+.iframe{
+  width: 65%;
+  height: 450px;
+  margin: auto;
+}
+iframe{
+  width: 98%;
+  height: 450px;
+}
+
+.contact{
+  width: 400px;
+  padding: 5px;
+  margin: auto;
+}
+
+.contact input, textarea{
+  width: 70%;
+  padding: 8px;
+  margin: 4px;
+}
+.footer{
+  width: 100%;
+  /* height: 500px; */
+  padding: 4px;
+  background-color: black;
+  border: transparent;
+  text-align: center;
+  color: white;
+}
+.info-div{
+  width: 800%;
+  margin: auto;
+  display: contents;
+  padding: 5px;
+  background-color: #819297;
+}
+
+.info-1, .info-2, .info-3,.info-4{  width: 350px;
+  /* background-color: #61dafb; */
+  display: inline-block;
+  padding: 30px;
+  margin: 20px;
+}
+
+.last-link{
+  margin: 4px;
+  padding: 9px;
+  color: white;
+}
+
+.form-email{
+  padding: 10px;
+}
+.the-btn{
+  padding: 12px;
+  background-color: rgb(4, 87, 196);
+  color: white;
+  border: transparent;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+@media (max-width:550px) {
+  .room-tlk {
+    margin-top: 50px;
+  }
+
+  .abb-all{
+    margin: auto;
+    width: 70%;
+    height: 840px;
+  }
+  .abb-txt{
+    width: 400px;
+  }
+  .abb-img{
+    width: 400px;
+    margin-right: -50px;
+  }
+  .abb-img2{
+    margin-top: 30px;
+  }
+  .room-top{
+    height: 300px;
+  }
+  .room-img img{
+    width: 300px;
+    margin: 3px;
+  }
+  .form-div form input, select{
+    width: 200px;
+    padding: 7px;
+    margin: 3px;
+    border:1px rgb(3, 3, 65) solid;
+  }
+  .iframe{
+    width: 80%;
+  }
+  .form-div{
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  
+  }
+}
