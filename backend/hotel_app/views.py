@@ -19,21 +19,18 @@ load_dotenv('../.env')
 class SingleRoomListView(generics.ListAPIView):
     queryset = Room.single.all().order_by('-date')
     serializer_class = RoomSerializer
-    lookup_field = 'id'
     permission_classes = [permissions.AllowAny]
 
 #  twin room List view
 class TwinRoomListView(generics.ListAPIView):
     queryset = Room.twin.all().order_by('-date')
     serializer_class = RoomSerializer
-    lookup_field = 'id'
     permission_classes = [permissions.AllowAny]
 
 #  studio room List view
 class StudioRoomListView(generics.ListAPIView):
     queryset = Room.studio.all().order_by('-date')
     serializer_class = RoomSerializer
-    lookup_field = 'id'
     permission_classes = [permissions.AllowAny]
 
  
@@ -41,7 +38,6 @@ class StudioRoomListView(generics.ListAPIView):
 class SuiteListView(generics.ListAPIView):
     queryset = Room.suite.all().order_by('-date')
     serializer_class = RoomSerializer
-    lookup_field = 'id'
     permission_classes = [permissions.AllowAny]
 
 
